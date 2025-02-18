@@ -2,9 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 
-    'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR - Ko' +
-    'pie.rtm'
+  PrinterSetup.DocumentName = 'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
@@ -18,7 +16,7 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName =
-    'C:\SchILD-NRW\SchILD-Reports\WBK\Anlage 04 - Bescheinigung ''#252''ber den schulischen Teil der FHR - Kopie.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\WBK\Anlage 04 - Bescheinigung ''#252''ber den schulischen Teil der FHR.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -93,9 +91,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport7: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 
-          'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR - Ko' +
-          'pie.rtm'
+        PrinterSetup.DocumentName = 'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -848,7 +844,7 @@ object Report: TppReport
             200D0A2020202020200D0A2020202020200D0A2020202020200D0A656E643B0D
             0A0D436F6D706F6E656E744E616D65060C4D656D6F5F4648525F57624B094576
             656E744E616D6506074F6E5072696E74074576656E7449440220084361726574
-            506F7301023E0222000000}
+            506F730102350216000000}
         end
         object ppDesignLayers3: TppDesignLayers
           object ppDesignLayer4: TppDesignLayer
@@ -884,9 +880,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport8: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 
-          'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR - Ko' +
-          'pie.rtm'
+        PrinterSetup.DocumentName = 'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -1090,7 +1084,7 @@ object Report: TppReport
                 object ppLabel39: TppLabel
                   UserName = 'LaBewertung1'
                   AutoSize = False
-                  Caption = 'Bewertung: Note (Punkte)'
+                  Caption = 'Bewertung (1-fach)'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
                   Font.Name = 'Calibri'
@@ -1669,7 +1663,7 @@ object Report: TppReport
                   5468656D612E56697369626C65203A3D20504A4B5F766F7268616E64656E3B0D
                   0A2020656E643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060644
                   657461696C094576656E744E616D65060B4265666F72655072696E7407457665
-                  6E7449440218084361726574506F730102010201000001060F5472614576656E
+                  6E7449440218084361726574506F730102290206000001060F5472614576656E
                   7448616E646C65720B50726F6772616D4E616D6506174C615F53756D6D655F31
                   666163684F6E476574546578740B50726F6772616D54797065070B747450726F
                   63656475726506536F75726365067470726F636564757265204C615F53756D6D
@@ -1722,9 +1716,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport4: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 
-                'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR - Ko' +
-                'pie.rtm'
+              PrinterSetup.DocumentName = 'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -1961,7 +1953,7 @@ object Report: TppReport
                 object ppLabel51: TppLabel
                   UserName = 'LaBewertung2'
                   AutoSize = False
-                  Caption = 'Bewertung: Note (Punkte)'
+                  Caption = 'Bewertung (1-fach)'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
                   Font.Name = 'Calibri'
@@ -2251,7 +2243,7 @@ object Report: TppReport
                   726765626E697373656E2028322D6661636829273B20200D0A0D0A0D0A656E64
                   3B0D0A0D436F6D706F6E656E744E616D6506124C6150756E6B7473756D6D655F
                   3266616368094576656E744E616D6506094F6E47657454657874074576656E74
-                  49440235084361726574506F730102010203000000}
+                  49440235084361726574506F730102030203000000}
               end
               object ppDesignLayers9: TppDesignLayers
                 object ppDesignLayer11: TppDesignLayer
@@ -2531,8 +2523,8 @@ object Report: TppReport
                   LayerName = Foreground9
                 end
                 object ppMemo4: TppMemo
-                  UserName = 'Memo4'
-                  Caption = 'Memo4'
+                  UserName = 'MemoKol'
+                  Caption = 'MemoKol'
                   CharWrap = False
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
@@ -2550,6 +2542,34 @@ object Report: TppReport
                   mmLeft = 0
                   mmTop = 29372
                   mmWidth = 160602
+                  BandType = 4
+                  LayerName = Foreground9
+                  mmBottomOffset = 0
+                  mmOverFlowOffset = 0
+                  mmStopPosition = 0
+                  mmMinHeight = 0
+                  mmLeading = 0
+                end
+                object ppMemo5: TppMemo
+                  UserName = 'MemoAGY'
+                  Caption = 'MemoAGY'
+                  CharWrap = False
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clBlack
+                  Font.Name = 'Calibri'
+                  Font.Size = 9
+                  Font.Style = []
+                  Lines.Strings = (
+                    'P = Punktsumme aus I und II'
+                    
+                      'S = Anzahl der Schulhalbjahresergebnisse (doppelt/dreifach gewic' +
+                      'htete F'#228'cher z'#228'hlen auch hier doppelt/dreifach) ')
+                  RemoveEmptyLines = False
+                  Transparent = True
+                  mmHeight = 10583
+                  mmLeft = 0
+                  mmTop = 29369
+                  mmWidth = 189442
                   BandType = 4
                   LayerName = Foreground9
                   mmBottomOffset = 0
@@ -2591,7 +2611,16 @@ object Report: TppReport
                   656C73652054657874203A3D20272D2D2D273B0D0A656E643B0D0A0D0A0D436F
                   6D706F6E656E744E616D6506074C615F444E5F32094576656E744E616D650609
                   4F6E47657454657874074576656E7449440235084361726574506F7301020102
-                  02000000}
+                  02000001060F5472614576656E7448616E646C65720B50726F6772616D4E616D
+                  65061144657461696C4265666F72655072696E740B50726F6772616D54797065
+                  070B747450726F63656475726506536F75726365068770726F63656475726520
+                  44657461696C4265666F72655072696E743B0D0A626567696E0D0A20200D0A20
+                  20204D656D6F4B6F6C2E56697369626C65203A3D20286E6F742869737457624B
+                  203D20274730322729293B200D0A2020204D656D6F4147592E56697369626C65
+                  3A3D202869737457624B203D202747303227293B200D0A656E643B0D0A0D436F
+                  6D706F6E656E744E616D65060644657461696C094576656E744E616D65060B42
+                  65666F72655072696E74074576656E7449440218084361726574506F7301022C
+                  0204000000}
               end
               object ppDesignLayers11: TppDesignLayers
                 object ppDesignLayer13: TppDesignLayer
@@ -2847,9 +2876,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.EigeneSchule
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 
-                'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR - Ko' +
-                'pie.rtm'
+              PrinterSetup.DocumentName = 'Anlage 04 - Bescheinigung '#252'ber den schulischen Teil der FHR.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -5146,58 +5173,58 @@ object Report: TppReport
                       end
                     end
                   end
-                  object ppTableColumn1: TppTableColumn
+                  object ppTableColumn19: TppTableColumn
                     mmWidth = 1323
                   end
-                  object ppTableColumn2: TppTableColumn
+                  object ppTableColumn20: TppTableColumn
                     mmWidth = 22225
                   end
-                  object ppTableColumn3: TppTableColumn
+                  object ppTableColumn21: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn4: TppTableColumn
+                  object ppTableColumn22: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn5: TppTableColumn
+                  object ppTableColumn23: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn6: TppTableColumn
+                  object ppTableColumn24: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn7: TppTableColumn
+                  object ppTableColumn25: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn8: TppTableColumn
+                  object ppTableColumn26: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn9: TppTableColumn
+                  object ppTableColumn27: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn10: TppTableColumn
+                  object ppTableColumn28: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn11: TppTableColumn
+                  object ppTableColumn29: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn12: TppTableColumn
+                  object ppTableColumn30: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn13: TppTableColumn
+                  object ppTableColumn31: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn14: TppTableColumn
+                  object ppTableColumn32: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn15: TppTableColumn
+                  object ppTableColumn33: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn16: TppTableColumn
+                  object ppTableColumn34: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn17: TppTableColumn
+                  object ppTableColumn35: TppTableColumn
                     mmWidth = 7408
                   end
-                  object ppTableColumn18: TppTableColumn
+                  object ppTableColumn36: TppTableColumn
                     mmWidth = 22225
                   end
                 end
@@ -5261,13 +5288,13 @@ object Report: TppReport
             Lines.Strings = (
               
                 'Die Bescheinigung gilt gem'#228#223' Gleichwertigkeitsverordnung (GlVO) ' +
-                'v. 08. Juli 2014 (BASS 13-73 Nr. 22.1) in Verbindung mit dem Nac' +
-                'hweis '#252'ber eine abgeschlossene Berufsausbildung nach Bundes- ode' +
-                'r Landesrecht oder eine mindestens zweij'#228'hrige Berufst'#228'tigkeit o' +
-                'der ein einj'#228'hriges gelenktes Praktikum gem'#228#223' RdErl. d. Minister' +
-                'iums f'#252'r Schule und Weiterbildung v. 11.Dezember 2006 (Praktikum' +
-                '- und Ausbildungsordnung '#8211' BASS 13 '#8211' 31 Nr. 1) als Nachweis der ' +
-                'Fachhochschulreife. ')
+                'v. 08.07.2014 (BASS 13-73 Nr. 22.1) in Verbindung mit dem Nachwe' +
+                'is '#252'ber eine abgeschlossene Berufsausbildung nach Bundes- oder L' +
+                'andesrecht oder eine mindestens zweij'#228'hrige Berufst'#228'tigkeit oder' +
+                ' ein einj'#228'hriges gelenktes Praktikum gem'#228#223' RdErl. d. Ministerium' +
+                's f'#252'r Schule und Weiterbildung v. 11.12.2006 (Praktikum- und Aus' +
+                'bildungsordnung '#8211' BASS 13 '#8211' 31 Nr. 1) als Nachweis der Fachhochs' +
+                'chulreife. ')
             RemoveEmptyLines = False
             ShiftRelativeTo = ppSubReport31
             Stretch = True
